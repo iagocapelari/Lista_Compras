@@ -28,7 +28,7 @@ window.cadastro = async function () {
   }
 }
 
-document.addEventListener('keydown'), function (event) {
+document.addEventListener('keydown', function (event) {
   if (event.key === 'Enter') {
     const caminho = window.localStorage.pathname
     if (caminho.includes('login')) {
@@ -36,4 +36,4 @@ document.addEventListener('keydown'), function (event) {
     }else if (caminho.includes('cadastro')) {
     }
   }
-}
+})
