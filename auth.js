@@ -27,3 +27,13 @@ window.cadastro = async function () {
     alert('Cadastro realizado! Faça login.')
   }
 }
+
+document.addEventListener('keydown'), function (event) {
+  if (event.key === 'Enter') {
+    const caminho = window.localStorage.pathname
+    if (caminho.includes('login')) {
+      login()
+    }else if (caminho.includes('cadastro')) {
+    }
+  }
+}
