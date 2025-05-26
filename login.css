@@ -1,0 +1,18 @@
+/*FONTE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Variaveis Globais*/
+:root {
+    --cor-primaria: ;
+    --cor-primaria-escura: ;
+    --cor-bg: ;
+    --cor-branco: ;
+    --cor-borda: ;
+    --cor-sombra: rgba();
+    --cor-texto: ;
+
+    --fonte: 'Roboto', sans-serif;
+
+    --raio: 0.8rem;
+    --transition: 0.3s ease;
+}
