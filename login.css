@@ -16,3 +16,15 @@
     --raio: 0.8rem;
     --transition: 0.3s ease;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte);
+    background: #93ed39;
+background: linear-gradient(90deg,rgba(147, 237, 57, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 188, 94, 0.92) 100%);
+}
