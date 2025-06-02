@@ -84,3 +84,9 @@ button {
     transition: var(--transition);
     cursor: pointer;
 }
+
+button:hover {
+    background-color: var(--cor-primaria-escura);
+}
+
+@media (max-widith: 360px)
