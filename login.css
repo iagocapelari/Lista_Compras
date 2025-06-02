@@ -25,6 +25,6 @@
 
 body {
     font-family: var(--fonte);
-    background: #93ed39;
-background: linear-gradient(90deg,rgba(147, 237, 57, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 188, 94, 0.92) 100%);
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 1) 28%);
 }
