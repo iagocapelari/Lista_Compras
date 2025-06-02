@@ -3,13 +3,13 @@
 
 /*Variaveis Globais*/
 :root {
-    --cor-primaria: ;
-    --cor-primaria-escura: ;
-    --cor-bg: ;
-    --cor-branco: ;
-    --cor-borda: ;
-    --cor-sombra: rgba();
-    --cor-texto: ;
+    --cor-primaria: #2B95AB;
+    --cor-primaria-escura: #19778A;
+    --cor-bg: #55BDD2;
+    --cor-branco: #FFFFFF;
+    --cor-borda: #70C9DB;
+    --cor-sombra: rgba(111111);
+    --cor-texto: #000000;
 
     --fonte: 'Roboto', sans-serif;
 
