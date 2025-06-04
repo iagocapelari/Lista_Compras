@@ -1,39 +1,44 @@
-/*FONTE*/
+/*---------FONTE---------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*Variaveis Globais*/
+/*------------VARIÁVEIS GLOBAIS------------------*/
 :root {
-    --cor-primaria: #2B95AB;
-    --cor-primaria-escura: #19778A;
-    --cor-bg: #55BDD2;
-    --cor-branco: #FFFFFF;
-    --cor-borda: #70C9DB;
-    --cor-sombra: rgba(111111);
-    --cor-texto: #000000;
+    --cor-primaria: #93A3B1;
+    --cor-primaria-escura: #7C898B;
+    --cor-bg: #f5f7fa;
+    --cor-branco: #ffffff;
+    --cor-borda: #ddd;
+    --cor-sombra: rgba(0, 0, 0, 0.15);
+    --cor-texto: #333;
 
     --fonte: 'Roboto', sans-serif;
 
     --raio: 0.8rem;
     --transition: 0.3s ease;
+
 }
 
+/** -------- reset css--------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*-------body----------*/
 body {
     font-family: var(--fonte);
-background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(43, 149, 171, 1) 40%);
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     min-height: 100vh;
-     padding: 20px;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 80%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
+
+/* --------container-------*/
 .container {
     background: var(--cor-bg);
     padding: clamp(2rem, 5vw, 3rem);
@@ -44,13 +49,23 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 
     text-align: center;
 }
 
-.tiulo {
+/**---------logo---------*/
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: var(--raio);
+}
+
+/*-------título------------*/
+.titulo {
     font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
     color: var(--cor-texto);
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
 
+/*--------inputs--------*/
 input {
     width: 100%;
     padding: 14px;
@@ -67,6 +82,7 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(107, 115, 255, 0.25);
 }
 
+/*-------botoes------*/
 .botoes {
     display: flex;
     flex-direction: column;
@@ -89,11 +105,12 @@ button:hover {
     background-color: var(--cor-primaria-escura);
 }
 
-@media (max-widith: 360px)
-     .container {
+@media (max-width: 360px) {
+    .container {
         padding: 1.5rem;
-     }
+    }
 
-     input, button {
-        font-size:  0.95rem;
-     }
+    input, button {
+        font-size: 0.95rem;
+    }
+}
