@@ -63,7 +63,7 @@ getUser().then(carregarLista)
 
 // enter funciona para adicionar item
 document.addEventListener('keydown', function (event) {
-    if (event.key === 'Enter') {
+  if (event.key === 'Enter') {
       adicionarItem()
-  }
+ }
 })
